@@ -11,7 +11,7 @@
             "settings": {
                 "clients": [
                     {
-                        "id": "de04add9-5c68-8bab-950c-08cd5320df18",
+                        "id": "8b286ae7-1806-4933-af09-904fb74100ee",
                         "flow": "xtls-rprx-direct"
                     }
                 ],
@@ -21,19 +21,19 @@
                         "dest": 3001
                     },
                     {
-                        "path": "/vless",
+                        "path": "/ovless",
                         "dest": 3002
                     },
                     {
-                        "path": "/vmess",
+                        "path": "/ovmess",
                         "dest": 3003
                     },
                     {
-                        "path": "/trojan",
+                        "path": "/otrojan",
                         "dest": 3004
                     },
                     {
-                        "path": "/shadowsocks",
+                        "path": "/oshadowsocks",
                         "dest": 3005
                     }
                 ]
@@ -49,7 +49,7 @@
             "settings": {
                 "clients": [
                     {
-                        "id": "de04add9-5c68-8bab-950c-08cd5320df18"
+                        "id": "8b286ae7-1806-4933-af09-904fb74100ee"
                     }
                 ],
                 "decryption": "none"
@@ -66,7 +66,7 @@
             "settings": {
                 "clients": [
                     {
-                        "id": "de04add9-5c68-8bab-950c-08cd5320df18",
+                        "id": "8b286ae7-1806-4933-af09-904fb74100ee",
                         "level": 0
                     }
                 ],
@@ -76,7 +76,7 @@
                 "network": "ws",
                 "security": "none",
                 "wsSettings": {
-                    "path": "/vless"
+                    "path": "/ovless"
                 }
             },
             "sniffing": {
@@ -96,7 +96,7 @@
             "settings": {
                 "clients": [
                     {
-                        "id": "de04add9-5c68-8bab-950c-08cd5320df18",
+                        "id": "8b286ae7-1806-4933-af09-904fb74100ee",
                         "alterId": 0
                     }
                 ]
@@ -104,7 +104,7 @@
             "streamSettings": {
                 "network": "ws",
                 "wsSettings": {
-                    "path": "/vmess"
+                    "path": "/ovmess"
                 }
             },
             "sniffing": {
@@ -124,7 +124,7 @@
             "settings": {
                 "clients": [
                     {
-                        "password": "de04add9-5c68-8bab-950c-08cd5320df18"
+                        "password": "8b286ae7-1806-4933-af09-904fb74100ee"
                     }
                 ]
             },
@@ -132,7 +132,7 @@
                 "network": "ws",
                 "security": "none",
                 "wsSettings": {
-                    "path": "/trojan"
+                    "path": "/otrojan"
                 }
             },
             "sniffing": {
@@ -153,7 +153,7 @@
                 "clients": [
                     {
                         "method": "chacha20-ietf-poly1305",
-                        "password": "de04add9-5c68-8bab-950c-08cd5320df18"
+                        "password": "8b286ae7-1806-4933-af09-904fb74100ee"
                     }
                 ],
                 "decryption": "none"
@@ -161,7 +161,7 @@
             "streamSettings": {
                 "network": "ws",
                 "wsSettings": {
-                    "path": "/shadowsocks"
+                    "path": "/oshadowsocks"
                 }
             },
             "sniffing": {
